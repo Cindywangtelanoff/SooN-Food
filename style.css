@@ -1,0 +1,145 @@
+body{
+	background-image: url(images/styles/sayagata-400px.png);
+	font-family: 'Poiret One', cursive;
+  padding-top: 150px;
+  font-size:16px;
+}
+.navbar-nav >li {
+  float: none;
+  vertical-align: bottom;
+      }
+#site-logo {
+  vertical-align: bottom;
+  bottom: -35px;
+      }
+#site-logo a {
+  margin-top: -69px;
+      }
+.navbar{
+  background-color: #009730;
+}
+.navbar-default .navbar-nav>li>a{
+	font-weight: bold;
+  font-size: 18px;
+  display: block;
+  border-style: solid;
+  padding-bottom: 32px;
+  padding-top:28px;
+  border-color: transparent;
+  color: #ebe829;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+  color: rgba(228,21,17,0.9);
+}
+.carousel{
+margin-top: 10px;
+margin-bottom: 10px;
+position: relative;
+}
+.form-group{
+  color:#045997;
+}
+.carousel .ghost-button{
+  position: absolute;
+  top: 434px;
+  right:-10px;
+  background: transparent;
+  border: 2px solid rgba(228,21,17,0.9); 
+  color: rgba(228,21,17,0.9);
+  z-index: 100;
+  display: inline-block;
+  padding: 10px;
+  margin: 20px 10px;
+  font-family: 'Roboto Slab', serif;
+  text-decoration: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  /* This is how you can add a transition so it eases into the hover 
+  color over half a second */
+  transition: ease .5s all;
+}
+.carousel a:hover, .caption a:hover{
+  background-color: rgba(127,17,15,0.9);
+}
+
+.carousel-inner > .item > img,.carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+.carousel-inner > .item > img {
+    margin: 0 auto;    
+}
+.container-fluid{
+  margin-top: 20px;
+}
+h3{
+ color: #971d1e;
+ font-weight: bold;
+ padding:48px;
+}
+footer{
+  	padding: 10px;
+    background-color:#009730; 
+    overflow: hidden;
+    color:#ebe829;
+}
+
+.module-mailing-list{
+  float: left;
+}
+.info{
+  float:right;
+}
+.btn-primary{
+  background: transparent;
+  border: 1px solid rgba(228,21,17,0.9); 
+  color: rgba(228,21,17,0.9);
+  transition: all .5s ease;
+}
+.form-group .btn{
+  padding: 12px 28px;
+  font-size: 18px;
+}
+.saehee1{
+  padding: 16px;
+}
+#saehee1{
+ padding-left: 36px;
+ padding-right: 36px;
+}
+.saehee2{
+ padding-top: 30px;
+}
+.img-circle{
+  float:left;
+  padding: 15px;
+}
+.products-h2{
+  text-align: center;
+  color: #971d1e;
+ font-weight: bold;
+  text-transform: uppercase;
+  padding: 15px;
+}
+.form-horizontal{
+  padding: 20px;
+  margin: 0 auto;
+  
+}
+.contact-pic{
+  width: 400px;
+  height: 600px;
+  margin-top:60px;
+  margin-left: 60px;
+  background-image: url(images/images/celebration.png);
+  background-size: cover;
+}
+.form-group{
+  margin: 0 auto;
+  padding: 20px;
+}
+input, optgroup, select, textarea {
+  margin: 12px;
+}
+
